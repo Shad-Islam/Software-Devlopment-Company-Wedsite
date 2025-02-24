@@ -69,3 +69,78 @@ nav{
     font-weight: 500;
 }
 /* nav css end  */
+
+/* header-content css start */
+.header-content{
+    width: 1440px;
+    height: 788.5px;
+    padding-top: 75px;
+    display: flex;
+    /* background-color: antiquewhite;  */
+}
+
+.header-content-text{
+    height: 100%;
+    width: 620px;
+    /* background-color: aqua; */
+}
+
+.header-content-image{
+    height: 100%;
+    width: 820px;
+    /* background-color: blueviolet; */
+}
+
+.header-heading-text{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 18px;
+}
+.header-heading-text span{
+    font-weight: 700;
+
+}
+
+.header-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.8;
+    color: #12141D;
+    margin-bottom: 35px;
+}
+
+.header-content-button{
+    padding: 18px 33.5px;
+    border-radius: 10px;
+    background-color: #009AA6;
+    color: #fff;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.header-content-button span{
+    margin-left: 9px;
+}
+
+.header-hr{
+    width: 86px;
+    height: 1px;
+    margin-top: 68px;
+    margin-bottom: 40px;
+    background-color: #0F172A;
+}
+
+.header-content-text-images{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+/* header-content css end */
