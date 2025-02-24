@@ -7,6 +7,7 @@
     font-family: dm-sans, sans-serif;
 }
 
+/* header css start  */
 header{
     /* background-color: blueviolet; */
     width: 1692px;
@@ -144,3 +145,24 @@ nav{
 
 }
 /* header-content css end */
+#full-cirlce{
+    position: absolute;
+    top: 668px;
+    left: 18px;
+    display: none;
+}
+
+#half-cirlce{
+    position: absolute;
+    top: 676px;
+    display: none;
+}
+/* header css end  */
+
+@media screen and (min-width: 1700px){
+    #full-cirlce,#half-cirlce{
+        display: block;
+    }
+
+    
+}
