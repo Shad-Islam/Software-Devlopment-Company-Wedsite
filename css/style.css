@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: dm-sans, sans-serif;
+}
+
+header{
+    width: 1692px;
+    height: 878.5px;
+    background-image: url(../images/bg\ figure.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-left: auto;
+}
