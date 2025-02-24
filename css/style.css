@@ -8,10 +8,64 @@
 }
 
 header{
+    /* background-color: blueviolet; */
     width: 1692px;
     height: 878.5px;
     background-image: url(../images/bg\ figure.png);
     background-repeat: no-repeat;
     background-position: right top;
     margin-left: auto;
+    padding-top: 30px;
 }
+
+/* nav css start  */
+nav{
+    width: 1440px;
+    height: 45px;
+    display: flex;
+    
+}
+
+.nav-logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.nav-logo img{
+    width: 200px;
+    height: 30px;
+    
+}
+
+.nav-items{
+    width: 1240px;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.nav-items ul{
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-items ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.23px;
+    color: #FFFFFF;
+
+}
+
+.nav-items ul li:last-child a{
+    padding: 13px 30px 14px 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #009AA6;
+    font-weight: 500;
+}
+/* nav css end  */
